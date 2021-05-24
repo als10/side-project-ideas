@@ -117,7 +117,7 @@ const CAppBar = ({ filter, setFilter, handleLogin, handleSignUp, logout, user })
                 display="inline-block"
                 className={classes.welcomeText}
               >
-                Welcome, {user.name}!
+                Welcome, {user.name || user.username}!
               </Box>
               <Button
                 onClick={logout}

@@ -45,7 +45,7 @@ const ProjectDetails = ({ open, setOpen, project }) => {
           <div className={classes.paper}>
             <Typography paragraph variant="h3">{project.title}</Typography>
             <Typography paragraph variant="body2" color="textSecondary">
-              {`By ${project.user.name}`}
+              {`By ${project.user.name || project.user.username}`}
             </Typography>
             <Typography paragraph style={{ whiteSpace: 'pre-line' }} color="textSecondary">
               {project.description}
