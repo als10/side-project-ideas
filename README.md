@@ -2,7 +2,7 @@
 A web app that allows users to create accounts and post side project ideas for those who lack inspiration. Deployed on Heroku.
 
 ## Demonstration
-View it live on Heroku at [https://side-project-ideas.herokuapp.com](https://side-project-ideas.herokuapp.com)
+View it live [here](https://side-project-ideas.herokuapp.com).
 
 ## Built With
 - Frontend
